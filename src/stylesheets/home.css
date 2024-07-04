@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+.row.welcome{
+    font-family: 'DM Sans',serif;
+    padding: 2em;
+}
+
+.welcome-message{
+    font-size: 5em; /* Adjust size as needed */
+    font-weight: bold;
+    background: linear-gradient(to right, #4a90e2, #8e44ad, #e94e77, #960028); /* Gradient colors */
+    background-clip: text;
+    color: transparent;
+}
+
+.cards{
+    padding: 0;
+}
+
+.col{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.row.graphs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: space-between;
+    padding-top: 3em;
+}

@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+.card.chart{
+    font-family: 'Montserrat',serif;
+    width: 650px;
+    height: 350px;
+    background-image: linear-gradient(163deg, #e100fa 0%, #48064b 100%);
+    border-radius: 0px;
+    transition: all .3s;
+    display: flex;
+}
+   
+.card2.chart{
+    width: 650px;
+    height: 350px;
+    background-color: #3b3b3b;
+    border-radius: 0px;
+    transition: all .2s;
+}
+
+.card2.chart .row.chart{
+    padding-left: 20px;
+    padding-top: 15px;
+}
+
+.card2:hover {
+    transform: scale(0.98);
+    background-color: rgb(173, 173, 173);
+    border-radius: 0px;
+}
+
+.table{
+    padding: 2em;
+}
+
+.row.row-table h1{
+    color: white;
+    font-family: 'Montserrat',sans-serif;
+    padding-bottom: 0.5em;
+}
